@@ -14,7 +14,7 @@ L = []
 if N==B:
   for i in M:
      if i in D:
-            L.aapend(i)
+            L.append(i)
             print(L)
 else:
     print("GG")  
