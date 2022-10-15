@@ -10,11 +10,12 @@ from random import randint
 for i in range(B):
     M[i] = randint(1, 2)
 print(M)
+L = []
 if N==B:
-    a = 0
-    for i in range(B):
-        if D[i]==M[i]:
-            a = D[i]
-            print(a)
+  for i in M:
+     if i in D:
+            L.aapend(i)
+            print(L)
 else:
-    print("GG")            
+    print("GG")  
+    #не получилось придумать,что делать,если размерность массивов отличается          
